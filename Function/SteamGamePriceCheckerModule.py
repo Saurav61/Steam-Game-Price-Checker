@@ -8,7 +8,7 @@ import requests
 class SteamGameChecker:
 	def __init__(self,desiredcurrency,automaticCurrency=True):
 		self.desiredcurrency = desiredcurrency
-		self.automaticCurrency = autmaticCurrency
+		self.automaticCurrency = automaticCurrency
 
 
 #The GetInformation function, once inputed with the url for the steam game in the JSON api format and the app's id (Next line)
